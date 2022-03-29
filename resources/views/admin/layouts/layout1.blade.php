@@ -1,0 +1,7 @@
+@include('admin.partials.head')
+@include('admin.partials.sidebar')
+@include('admin.partials.navbar')
+@yield('content')
+@include('admin.partials.footer')
+@include('admin.partials.logout_modal')
+@include('admin.partials.foot')

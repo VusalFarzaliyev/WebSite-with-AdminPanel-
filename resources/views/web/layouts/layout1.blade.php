@@ -1,0 +1,6 @@
+@include("web.partials.head")
+@include("web.partials.navbar")
+@yield("content")
+@include("web.partials.contact_us")
+@include("web.partials.footer")
+@include("web.partials.foot")
